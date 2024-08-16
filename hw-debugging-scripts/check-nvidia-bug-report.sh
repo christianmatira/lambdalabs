@@ -3,7 +3,7 @@
 #
 # Has all the Xid errors except 94 or ones for A100
 # Add the path you place the CSV list of errors
-NVIDIA_XID_ERRORS="~/lambda/data/xid-errors.csv"
+NVIDIA_XID_ERRORS="./xid-errors.csv"
 
 #1.Avoid the binaries generally and faster:: - DONE
 #    Run nvidia-bug-report once through col -b to tmp file
